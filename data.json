@@ -9,6 +9,11 @@
       "file": "experiments/tri_moln.js",
       "name": "Vera Molnar Traingles",
       "description": "A generative triangle grid inspired by Vera Molnár with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized soft, pastel colors on a black background, creating a gentle and dreamy effect"
+    },
+    {
+      "file": "experiments/noisePerline.js",
+      "name": "Perline's noise ",
+      "description": "A landscape art by using perline's noise with the guidance of Garrit Schaap's noise example. You can see a layered mountain with a fading effect and a blue sky background, I was goign for a dreamy feeling."
     }
   ]
 ]
