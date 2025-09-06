@@ -3,12 +3,12 @@
     {
       "file": "experiments/squa_moln.js",
       "name": "Vera Molnar Squares",
-      "description": "A recreasion of Vera Molnár's square art with the guidance of Garrit Schaap's code example. Each cell has layered rectangles with random positions and randomized bright, semi-transparent colors on a black background, creating a vibrant and glowing effect"
+      "description": "A recreasion of Vera Molnár's square art with the guidance of Garrit Schaap's code example. Each cell has layered rectangles with random positions and randomized bright, semi-transparent colors on a black background. I was aiming for a vibrant and glowing effect"
     },
     {
       "file": "experiments/tri_moln.js",
       "name": "Vera Molnar Traingles",
-      "description": "A generative triangle grid inspired by Vera Molnár with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized soft, pastel colors on a black background, creating a gentle and dreamy effect"
+      "description": "Triangle art grid inspired by Vera Molnár's square art, with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized pastel colors on a black background. I was aiming for a gentle and dreamy effect"
     },
     {
       "file": "experiments/noisePerline.js",
