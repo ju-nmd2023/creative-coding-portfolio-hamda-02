@@ -14,6 +14,11 @@
       "file": "experiments/noisePerline.js",
       "name": "Perline's noise ",
       "description": "A landscape art by using perline's noise with the guidance of Garrit Schaap's noise example. You can see a layered mountain with a fading effect and a blue sky background, I was goign for a dreamy feeling."
+    },
+    {
+      "file": "experiments/noisePerline.js",
+      "name": "Perline's noise 2 ",
+      "description": "A landscape art by using perline's noise with the guidance of Garrit Schaap's noise example. To make this piece more intresting I played around with height of the noise and removed the no loop effect, and used a random fill colors for the gradient and kept the background white."
     }
   ]
 ]
