@@ -1,24 +1,32 @@
 [
-  [
-    {
-      "file": "experiments/squa_moln.js",
-      "name": "Vera Molnar Squares",
-      "description": "A recreasion of Vera Molnár's square art with the guidance of Garrit Schaap's code example. Each cell has layered rectangles with random positions and randomized bright, semi-transparent colors on a black background. I was aiming for a vibrant and glowing effect"
-    },
-    {
-      "file": "experiments/tri_moln.js",
-      "name": "Vera Molnar Traingles",
-      "description": "Triangle art grid inspired by Vera Molnár's square art, with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized pastel colors on a black background. I was aiming for a gentle and dreamy effect"
-    },
-    {
-      "file": "experiments/noisePerline.js",
-      "name": "Perline's noise ",
-      "description": "A landscape art by using perline's noise with the guidance of Garrit Schaap's noise example. You can see a layered mountain with a fading effect and a blue sky background, I was goign for a dreamy feeling."
-    },
-    {
-      "file": "experiments/noisePerline.js",
-      "name": "Perline's noise 2 ",
-      "description": "A landscape art by using perline's noise with the guidance of Garrit Schaap's noise example. To make this piece more intresting I played around with height of the noise and removed the no loop effect, and used a random fill colors for the gradient and kept the background white."
-    }
-  ]
+  {
+    "file": "experiments/squa_moln.js",
+    "name": "Vera Molnar 1 - Squares",
+    "description": "A recreasion of Vera Molnár's square art with the guidance of Garrit Schaap's code example. Each cell has layered rectangles with random positions and randomized bright, semi-transparent colors on a black background. I was aiming for a vibrant and glowing effect"
+  },
+  {
+    "file": "experiments/tri_moln.js",
+    "name": "Vera Molnar 2 - Traingles",
+    "description": "Triangle art grid inspired by Vera Molnár's square art, with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized pastel colors on a black background. I was aiming for a gentle and dreamy effect"
+  },
+  {
+    "file": "experiments/noisePerlin1.js",
+    "name": "Perline's noise mountain ",
+    "description": "A landscape art created using Perlin noise inspired by Garrit Schaap's noise example and The coding train. It features two layered mountains with a subtle transparency effect to create depth, set against a soft blue sky. The mountains drift gently, giving the scene a calm, dreamy motion."
+  },
+  {
+    "file": "experiments/Perlinnight2.js",
+    "name": "Perline's noise 2 ",
+    "description": "This is the night version of my earlier piece, I played with the mountain colours and gave it night sky and a moon."
+  },
+  {
+    "file": "experiments/PerlinSnow.js",
+    "name": "Perline's noise Snow fall ",
+    "description": "Using particle system, this piece features the first snowfall of winter with gentle snowflakes for a calm atmosphere."
+  },
+  {
+    "file": "experiments/Perlinightstorm.js",
+    "name": "Perline's noise Snow Storm ",
+    "description": "This version shifts into a snowstorm with heavy winds, creating a dramatic atmosphere."
+  }
 ]

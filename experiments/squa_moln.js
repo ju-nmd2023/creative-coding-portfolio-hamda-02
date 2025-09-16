@@ -1,12 +1,12 @@
-//citaion: follwed garrit's recrding noise example for Vera Molnár
+//Citaion: follwed garrit's recrding noise example for Vera Molnár
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(7);
+  rect(CENTER);
 }
 
-
-const size = 100;
+const size = 160;
 const layers = 10;
 
 function getRandomValue(pos, variance) {
