@@ -28,5 +28,10 @@
     "file": "experiments/Perlinightstorm.js",
     "name": "Perline's noise Snow Storm ",
     "description": "This version shifts into a snowstorm with heavy winds, creating a dramatic atmosphere."
+  },
+  {
+    "file": "experiments/flowfield.js",
+    "name": "Flow field ",
+    "description": "This peice shows the screen slowly truning black with particles flow across, mouse click refreshes their movement and it goes until the screen becames balck."
   }
 ]
