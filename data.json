@@ -33,5 +33,10 @@
     "file": "experiments/flowfield.js",
     "name": "Flow field ",
     "description": "This peice shows the screen slowly truning black with particles flow across, mouse click refreshes their movement and it goes until the screen becames balck."
+  },
+  {
+    "file": "experiments/flowfield2.js",
+    "name": "Flow field ",
+    "description": "This peice shows the screen slowly truning black with particles flow across, mouse click refreshes their movement and it goes until the screen becames balck."
   }
 ]
