@@ -27,16 +27,16 @@
   {
     "file": "experiments/Perlinightstorm.js",
     "name": "Perline's noise Snow Storm ",
-    "description": "This version shifts into a snowstorm with heavy winds, creating a dramatic atmosphere."
+    "description": "This piece shifts into a snowstorm with heavy winds, creating a dramatic atmosphere."
   },
   {
     "file": "experiments/flowfield.js",
-    "name": "Flow field ",
-    "description": "This peice shows the screen slowly truning black with particles flow across, mouse click refreshes their movement and it goes until the screen becames balck."
+    "name": "Flow field glow ",
+    "description": "I played with flowing particles that softly glow as they move. Each line overlaps and blends with the others, so the colors feel alive and constantly shifting when you click."
   },
   {
     "file": "experiments/flowfield2.js",
-    "name": "Flow field ",
-    "description": "This peice shows the screen slowly truning black with particles flow across, mouse click refreshes their movement and it goes until the screen becames balck."
+    "name": "Flow field ink ",
+    "description": "This piece draws pure black lines that twist and overlap in a chaotic way and it's happening automatically. I added it a random stroke weight and it gave it a hand-drawn, messy energy"
   }
 ]
