@@ -19,7 +19,6 @@ function draw() {
     let baseY = originalY + i * 200 + noise(xoff) * 110;
     noStroke();
 
-  
     if (i === 0) {
       fill(33, 20, 0, 250);
     } else {
