@@ -3,7 +3,7 @@
 let particles = [];
 const num = 200;
 
-const noiseScale = 0.006; //zoom in and make it less grainy
+const noiseScale = 0.008; //zoom in and make it less grainy
 
 // let CurrentStroke = [
 //   [34, 139, 34], // Forest Green
@@ -22,14 +22,14 @@ function setup() {
 function draw() {
   // background(255, 6);
   //changing color automatically
-  if (frameCount % (60 * 2) === 0) {
+  if (frameCount % (60 * 3) === 0) {
     // CurrentStroke = random(CurrentStroke);
     stroke(0);
     noiseSeed(millis());
   }
 
   // stroke(CurrentStroke[0], CurrentStroke[1], CurrentStroke[2], 50);
-  strokeWeight(random(1, 4));
+  strokeWeight(random(1, 6));
   for (let i = 0; i < num; i++) {
     let p = particles[i];
     point(p.x, p.y);
@@ -40,6 +40,11 @@ function draw() {
     let prevY = p.y;
     let n = noise(p.x * noiseScale, p.y * noiseScale);
     let a = TAU * n;
+
+    // Citation Chatgpt LINE 45 & 46 have the pariles come from opposite direction to or left
+    if (i % 2 == 0) {
+      a += PI; //adding 180 = flow the opposite way
+    }
 
     // spped + here i'm converting angle into x & y
     let speed = map(noise(p.x * 0.05, p.y * 0.05), 0, 1, 0.5, 6);

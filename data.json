@@ -35,13 +35,13 @@
     "description": "With help of Barney Codes, I played with flowing particles that softly glow as they move. Each line overlaps and blends with the others, so the colors feel alive and constantly shifting when you click."
   },
   {
-    "file": "experiments/flowfield2.js",
+    "file": "experiments/flowfield2ink.js",
     "name": "Flow field ink ",
-    "description": "This verison draws pure black lines that twist and overlap in a chaotic way and it's happening automatically. I added it a random stroke weight and it gave it a hand-drawn, messy energy."
+    "description": "This version draws pure black lines that twist and overlap in a chaotic way until the canvas is filled. I removed the interaction, so the flow happens automatically. I added random stroke weights, giving it a hand-drawn energy, and I also made the particles flow in opposite directions this time, instead of just one."
   },
   {
-    "file": "experiments/flowfieldwater.js",
+    "file": "experiments/flowfieldcircles.js",
     "name": "Flow field retro vibe  ",
-    "description": "This version I used a retro color inspired palette with drifting circles instead of the lines that overlap,and played around with the speed, colors and framecount that control color change and this helped me create not only chaotic but hypnotic flow."
+    "description": "This version I used a retro color inspired palette with drifting circles instead of the lines that overlap, and played around with the speed, colors and framecount that control color change and this helped me create not only chaotic but hypnotic flow."
   }
 ]

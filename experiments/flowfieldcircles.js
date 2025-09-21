@@ -57,6 +57,10 @@ function draw() {
     let n = noise(p.x * noiseScale, p.y * noiseScale);
     let a = TAU * n;
 
+    if (i % 2 === 0) {
+      a += PI;
+    }
+
     // spped + here i'm converting angle into x & y
     let speed = map(noise(p.x * 0.05, p.y * 1), 0, 1, 0.5, 6);
     p.x += cos(a) * speed;
