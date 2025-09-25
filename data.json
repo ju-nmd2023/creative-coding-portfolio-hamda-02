@@ -1,47 +1,63 @@
 [
   {
     "file": "experiments/squa_moln.js",
-    "name": "Vera Molnar 1 - Squares",
+    "name": "Week1: Vera Molnar 1",
     "description": "A recreasion of Vera Molnár's square art with the guidance of Garrit Schaap's code example. Each cell has layered rectangles with random positions and randomized bright, semi-transparent colors on a black background. I was aiming for a vibrant and glowing effect"
   },
   {
     "file": "experiments/tri_moln.js",
-    "name": "Vera Molnar 2 - Traingles",
+    "name": "Week1: Vera Molnar 2",
     "description": "Triangle art grid inspired by Vera Molnár's square art, with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized pastel colors on a black background. I was aiming for a gentle and dreamy effect"
   },
   {
     "file": "experiments/noisePerlin1.js",
-    "name": "Perline's noise mountain ",
+    "name": "Week1: Perline's noise 1",
     "description": "A landscape art created using Perlin noise inspired by Garrit Schaap's noise example and The coding train. It features two layered mountains with a subtle transparency effect to create depth, set against a soft blue sky. The mountains drift gently, giving the scene a calm, dreamy motion."
   },
   {
     "file": "experiments/Perlinnight2.js",
-    "name": "Perline's noise 2 ",
+    "name": "Week1: Perline's noise 2",
     "description": "This is the night version of my earlier piece, I played with the mountain colours and gave it night sky and a moon."
   },
   {
     "file": "experiments/PerlinSnow.js",
-    "name": "Perline's noise Snow fall ",
+    "name": "Week 2&3: Perline's noise Snow fall 1 ",
     "description": "Using particle system, this piece features the first snowfall of winter with gentle snowflakes for a calm atmosphere."
   },
   {
     "file": "experiments/Perlinightstorm.js",
-    "name": "Perline's noise Snow Storm ",
+    "name": "Week 2&3: Perline's noise Snow Storm 2 ",
     "description": "This piece shifts into a snowstorm with heavy winds, creating a dramatic atmosphere."
   },
   {
     "file": "experiments/flowfield.js",
-    "name": "Flow field glow ",
+    "name": "Week 2&3: Flow field glow 1 ",
     "description": "With help of Barney Codes, I played with flowing particles that softly glow as they move. Each line overlaps and blends with the others, so the colors feel alive and constantly shifting when you click."
   },
   {
     "file": "experiments/flowfield2ink.js",
-    "name": "Flow field ink ",
+    "name": "Week 2&3: Flow field ink 2 ",
     "description": "This version draws pure black lines that twist and overlap in a chaotic way until the canvas is filled. I removed the interaction, so the flow happens automatically. I added random stroke weights, giving it a hand-drawn energy, and I also made the particles flow in opposite directions this time, instead of just one."
   },
   {
     "file": "experiments/flowfieldcircles.js",
-    "name": "Flow field retro vibe  ",
+    "name": "Week 2&3: Flow field retro 3 ",
     "description": "This version I used a retro color inspired palette with drifting circles instead of the lines that overlap, and played around with the speed, colors and framecount that control color change and this helped me create not only chaotic but hypnotic flow."
+  },
+  {
+    "file": "experiments/flowfieldsquars.js",
+    "name": "Week 2&3: Flow field De Stijl 4  ",
+    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed "
+  },
+  {
+    "file": "experiments/tonefirework.js",
+    "name": "Week 4:  ",
+    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed "
+  },
+  {
+  
+    "file": "experiments/ball.js",
+    "name": "Week 4:  ",
+    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed "
   }
 ]
