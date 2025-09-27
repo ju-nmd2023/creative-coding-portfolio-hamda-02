@@ -1,13 +1,17 @@
+//Citation: Garrit's bouncy ball code recordings as base.
+
+
+
 let pos;
 let ballFill = color(255);
 // let y = 0;
 let synth;
-let xSpeed = random([8, -8]);
-let ySpeed = random([8, -8]);
+let ySpeed;
 
 window.addEventListener("load", () => {
   synth = new Tone.MonoSynth().toDestination();
 });
+
 
 function setup() {
   createCanvas(600, 400);
@@ -16,6 +20,7 @@ function setup() {
   xSpeed = random([8, -8]);
   ySpeed = random([8, -8]);
 }
+
 
 window.addEventListener("click", () => {
   Tone.start();
@@ -52,4 +57,3 @@ function draw() {
   pos.x = pos.x + xSpeed;
 }
 
-//Citation: What Make Art https://www.youtube.com/watch?v=y14SpHKL1gg
