@@ -47,11 +47,11 @@
   {
     "file": "experiments/flowfieldsquars.js",
     "name": "Week 2&3: Flow field De Stijl 4  ",
-    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed "
+    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed. "
   },
   {
     "file": "experiments/ball.js",
     "name": "Week 4:Bouncy ball Tone.js  ",
-    "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed "
+    "description": "I made a playful Tone.js piece with a ball bouncing around the canvas. It changes color and plays a note every time it hits an edge, creating a fun interaction with sound and motion."
   }
 ]

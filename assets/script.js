@@ -40,7 +40,8 @@ function goToExperiment(index) {
 
   const toneScript = document.createElement("script");
   toneScript.type = "text/javascript";
-  toneScript.src = "https://unpkg.com/tone";
+  toneScript.src =
+    "https://cdnjs.cloudflare.com/ajax/libs/tone/15.3.3/Tone.min.js";
   toneScript.defer = true;
   bodyElement.appendChild(toneScript);
 
