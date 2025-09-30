@@ -10,6 +10,11 @@
     "description": "Triangle art grid inspired by Vera Molnár's square art, with the guidance of Garrit Schaap's code example. Each cell is made of layered triangles with randomized positions and randomized pastel colors on a black background. I was aiming for a gentle and dreamy effect"
   },
   {
+    "file": "experiments/molnmore.js",
+    "name": "Week1: Vera Molnar 3",
+    "description": "This variant replaces the layered triangles with layered circles, increases the wobble variance, and uses a gradient alpha for a softer, more playful effect."
+  },
+  {
     "file": "experiments/noisePerlin1.js",
     "name": "Week1: Perline's noise 1",
     "description": "A landscape art created using Perlin noise inspired by Garrit Schaap's noise example and The coding train. It features two layered mountains with a subtle transparency effect to create depth, set against a soft blue sky. The mountains drift gently, giving the scene a calm, dreamy motion."
@@ -50,8 +55,9 @@
     "description": "This version is De Stijl inspired from the sqaure shapes and the color palette, I played around with the flow and made it very wavy and things like flow speed and the color change speed. "
   },
   {
-    "file": "experiments/ball.js",
+    "file": "experiments/balll.js",
     "name": "Week 4:Bouncy ball Tone.js  ",
     "description": "I made a playful Tone.js piece with a ball bouncing around the canvas. It changes color and plays a note every time it hits an edge, creating a fun interaction with sound and motion."
   }
 ]
+
