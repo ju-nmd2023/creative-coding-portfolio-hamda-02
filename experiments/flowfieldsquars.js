@@ -1,14 +1,13 @@
-//Citaion: https://www.youtube.com/watch?v=sZBfLgfsvSk
+//Citation: Barney Codes: https://www.youtube.com/watch?v=sZBfLgfsvSk
 let particles = [];
 
 let colorPalette = [
   //De Stijl Piet Mondrian color palette
   [216, 219, 215], // light gray
-  [231, 5, 3],     // red
-  [3, 0, 173],     // blue
-  [253, 222, 6],   // yellow
+  [231, 5, 3], // red
+  [3, 0, 173], // blue
+  [253, 222, 6], // yellow
 ];
-
 
 let c;
 const num = 10;
@@ -47,7 +46,7 @@ function draw() {
     point(p.x, p.y);
     // ellipse(p.x, p.y, 0.04 + noise(p.x, p.y) * 5);
 
-    //Chatgpt suggestion Line 25-27
+    //Chatgpt suggestion Line 51-54
     let prevX = p.x;
     let prevY = p.y;
     let n = noise(p.x * noiseScale, p.y * noiseScale);
@@ -63,7 +62,7 @@ function draw() {
     p.y += sin(a) * speed;
 
     p.y += sin(frameCount * 0.09 + i) * 9;
-    //Chatgpt suggestion Line 37
+    //Chatgpt suggestion Line 67
     rect(prevX, prevY, 60);
     // line(prevX, prevY, p.x, p.y);
 

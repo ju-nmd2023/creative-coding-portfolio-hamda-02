@@ -1,15 +1,9 @@
-//Citaion: https://www.youtube.com/watch?v=sZBfLgfsvSk
+//Citation: Barney Codes: https://www.youtube.com/watch?v=sZBfLgfsvSk
 
 let particles = [];
 const num = 200;
 
 const noiseScale = 0.008; //zoom in and make it less grainy
-
-// let CurrentStroke = [
-//   [34, 139, 34], // Forest Green
-//   [107, 142, 35], // Olive Green
-//   [144, 238, 144], // Light Green (leaves in sunlight)
-// ];
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
@@ -20,7 +14,6 @@ function setup() {
 }
 
 function draw() {
-  // background(255, 6);
   //changing color automatically
   if (frameCount % (60 * 3) === 0) {
     // CurrentStroke = random(CurrentStroke);
@@ -35,7 +28,7 @@ function draw() {
     point(p.x, p.y);
     // ellipse(p.x, p.y, 0.04 + noise(p.x, p.y) * 5);
 
-    //Chatgpt suggestion Line 25-27
+    //Chatgpt suggestion Line 32-35
     let prevX = p.x;
     let prevY = p.y;
     let n = noise(p.x * noiseScale, p.y * noiseScale);
@@ -52,7 +45,7 @@ function draw() {
     p.y += sin(a) * speed;
 
     p.y += sin(frameCount * 0.01 + i) * 0.3;
-    //Chatgpt suggestion Line 37
+    //Chatgpt suggestion Line 49
     line(prevX, prevY, p.x, p.y);
     if (!onScreen(p)) {
       //when ps leave the canvas reset

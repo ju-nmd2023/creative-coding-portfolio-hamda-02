@@ -1,5 +1,5 @@
-//citation: Mix of Garrite's noiseexample lecture recording and coding train youtube channel
-//snowflakes citation: https://www.youtube.com/watch?v=UcdigVaIYAk&t=72s
+//Citation: Mix of Garrite's noiseexample lecture recording and Coding train youtube channel
+//Citation: snowflakes https://www.youtube.com/watch?v=UcdigVaIYAk&t=72s
 let SnowFlakes = [];
 
 let inc = 0.002;

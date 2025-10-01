@@ -1,4 +1,6 @@
-//citation: Mix of Garrite's noiseexample lecture recording and coding train youtube channel
+//Citation: Mix of Garrite's noiseexample lecture recording and coding train youtube channel
+//Citation: snowflakes https://www.youtube.com/watch?v=UcdigVaIYAk&t=72s
+
 let SnowFlakes = [];
 
 let inc = 0.002;
@@ -6,7 +8,6 @@ let start = 0;
 function setup() {
   createCanvas(innerWidth, innerHeight);
 }
-
 
 function draw() {
   background(10, 15, 40);
@@ -26,10 +27,6 @@ function draw() {
       fill(30, 17, 14);
     }
 
-    // push();
-    // fill(255);
-    // ellipse(300, 100, 100, 100);
-    // pop();
     beginShape();
 
     for (let x = 0; x < innerWidth; x++) {

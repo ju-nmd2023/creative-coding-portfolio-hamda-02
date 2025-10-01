@@ -1,9 +1,9 @@
-//Citaion: follwed garrit's recrding noise example for Vera Molnár
+//Citation: follwed Garrit's noise code example for Vera Molnár
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(7);
-  rect(CENTER);
+  rectMode(CENTER);
 }
 
 const size = 160;

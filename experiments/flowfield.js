@@ -1,4 +1,4 @@
-//Citaion: https://www.youtube.com/watch?v=sZBfLgfsvSk
+//Citation: Barney Codes: https://www.youtube.com/watch?v=sZBfLgfsvSk
 
 let particles = [];
 const num = 600;
@@ -25,18 +25,18 @@ function draw() {
     point(p.x, p.y);
     // ellipse(p.x, p.y, 0.04 + noise(p.x, p.y) * 5);
 
-    //Chatgpt suggestion Line 25-27
+    //Chatgpt suggestion Line 29-32
     let prevX = p.x;
     let prevY = p.y;
     let n = noise(p.x * noiseScale, p.y * noiseScale);
     let a = TAU * n;
 
-    // spped + here i'm converting angle into x & y
+    // speed + here i'm converting angle into x & y
     let speed = map(noise(p.x * 0.05, p.y * 0.05), 0, 1, 0.5, 3);
     p.x += cos(a) * speed;
     p.y += sin(a) * speed;
 
-    //Chatgpt suggestion Line 37
+    //Chatgpt suggestion Line 40
     line(prevX, prevY, p.x, p.y); // draw the line as particle moves
 
     if (!onScreen(p)) {

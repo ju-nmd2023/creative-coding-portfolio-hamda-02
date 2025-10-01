@@ -1,4 +1,4 @@
-//Citation: Garrit's bouncy ball code recordings as base.
+//Citation: Used Garrit's vectors code examples as base.
 
 let pos;
 let xSpeed, ySpeed;
@@ -22,16 +22,6 @@ function setup() {
   ySpeed = random([16, -16]);
   noLoop();
 
-  //Citation: tone.js not workingggg final help from Chatgpt Line 19-26
-  // dynamically load Tone.js inside the sketch
-  // const toneScript = document.createElement("script");
-  // toneScript.src =
-  //   "https://cdnjs.cloudflare.com/ajax/libs/tone/15.3.3/Tone.min.js";
-  // toneScript.onload = () => {
-  //   synth = new Tone.MonoSynth().toDestination();
-  // };
-  // document.body.appendChild(toneScript);
-
   //my start button
   startBtn = createButton("Start");
   startBtn.position(innerWidth / 2 - 50, innerHeight / 2);
@@ -44,7 +34,6 @@ function setup() {
   startBtn.style("cursor", "pointer");
   startBtn.mousePressed(() => {
     Tone.start().then(() => {
-      // await Tone.start();
       started = true;
       loop();
       startBtn.hide();

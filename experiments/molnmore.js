@@ -1,4 +1,4 @@
-//Citaion: follwed garrit's recrding noise example for Vera Molnár
+//Citation: follwed Garrit's noise code example for Vera Molnár
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
@@ -12,7 +12,6 @@ const layers = 10;
 function getRandomValue(pos, variance) {
   return pos + random(-variance, variance);
 }
-
 
 
 function drawLayers(x, y, size, layers) {

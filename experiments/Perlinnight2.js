@@ -1,4 +1,4 @@
-//citation: Mix of Garrite's noiseexample lecture recording and coding train youtube channel
+//Citation: Mix of Garrite's noiseexample lecture recording and coding train youtube channel
 
 let inc = 0.002;
 let start = 0;
